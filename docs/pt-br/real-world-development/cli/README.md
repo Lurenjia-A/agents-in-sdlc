@@ -16,13 +16,15 @@ Ao longo destas lições, você instalará e autenticará o Copilot CLI, depois 
 |----------|-------|-------------|
 | [0. Pré-requisitos][ex0] | Configuração | Crie seu repositório e seu codespace |
 | [1. Instalar o Copilot CLI][ex1] | Instalação | Instale e autentique o Copilot CLI |
-| [2. Instruções personalizadas][ex2] | Contexto | Adicione uma instrução e veja como o Copilot CLI a segue |
-| [3. Geração de código][ex3] | Geração de código | Use o modo plan e gere recursos |
-| [4. Testar com o MCP do Playwright][ex4] | Ferramentas externas | Adicione o servidor MCP do Playwright e teste seu recurso em um navegador |
-| [5. Skills de agente][ex5] | Skills | Aprimore o Copilot com skills especializadas |
-| [6. Agentes personalizados][ex6] | Agentes | Revise e use agentes personalizados |
-| [7. Comandos de barra][ex7] | Recursos da CLI | Explore contexto, modelos, compartilhamento e a delegação opcional para o agente de nuvem |
-| [9. Revisão][ex9] | Resumo | Revise os principais conceitos e os próximos passos |
+| [2. Adicionar avaliações por estrelas][ex2] | Primeira alteração | Faça uma pequena alteração e abra seu primeiro pull request |
+| [3. Modos do agente][ex3] | Fluxo orientado por issue | Use Plan, Autopilot e Interactive |
+| [4. Instruções personalizadas][ex4] | Contexto | Adicione padrões de documentação |
+| [5. Skills de agente][ex5] | Verificações | Personalize a skill `quality-checks` |
+| [6. Testar com o MCP do Playwright][ex6] | Ferramentas externas | Teste a filtragem em um navegador |
+| [7. Agente de QA][ex7] | Qualidade | Crie e use um agente de QA |
+| [8. Criar o pull request][ex8] | Agent Merge | Revise e mescle a funcionalidade |
+| [9. Comandos de barra][ex9] | Recursos da CLI | Explore contexto, modelos e compartilhamento |
+| [10. Revisão][ex10] | Resumo | Revise os principais conceitos e os próximos passos |
 | [Opcional: Incorpore o Foundry][foundry] | Agentes hospedados | Prepare um modelo, crie e implante um Backer Concierge baseado no catálogo e conecte-o ao site |
 
 ## Pré-requisitos
@@ -45,12 +47,14 @@ Antes de participar deste workshop, verifique se você tem:
 
 [ex0]: 0-prerequisites/
 [ex1]: 1-install-copilot-cli/
-[ex2]: 2-custom-instructions/
-[ex3]: 3-generating-code/
-[ex4]: 4-mcp/
+[ex2]: 2-add-star-rating/
+[ex3]: 3-agent-modes/
+[ex4]: 4-custom-instructions/
 [ex5]: 5-agent-skills/
-[ex6]: 6-custom-agents/
-[ex7]: 7-slash-commands/
+[ex6]: 6-mcp-playwright/
+[ex7]: 7-qa-agent/
+[ex8]: 8-create-pull-request/
 [foundry]: 8-foundry-agent/
-[ex9]: 9-review/
+[ex9]: 9-cli-power-tools/
+[ex10]: 10-review/
 [callout-student-plan-education]: https://github.com/education/students
